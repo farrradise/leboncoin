@@ -1,17 +1,50 @@
+/*=================mise en page du header==================*/
+
+
+
 nav {
   background-color: rgb(245,107,42)!important;
+  flex-flow: row;
+  height: auto;
 }
 
 H1 > img {
-  width: 200px;
-  /*max-height: 100%;*/
+  width: 150px;
+}
+
+H1 {
+  margin: 0;
+}
+
+header > nav > div > a {
+  position: relative;
+  /*padding: 0;*/
+  margin: auto;
+}
+
+header > nav > div:last-child {
+  background-color: rgb(204,204,204);
+}
+
+.navbar button {
+  padding: 0px 10px;
+  margin: 8px 10px;
+  font-weight: bolder;
+  color: rgb(245,107,42)!important;
+  font-size: 15px;
+  height: 40px;
+  background-color: white;
 }
 
 
-nav * {
-  border: 1px solid black;
-}
+@media (min-width:970px) {
 
-* {
-  /*margin: 0;*/
+  /*=================mise en page du header==================*/
+
+  header > nav > div > a {
+    position: relative;
+    /*padding: 0;*/
+    margin: auto;
+  }
+
 }
