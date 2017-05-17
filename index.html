@@ -6,7 +6,7 @@
         <title>leboncoin, site de petites annonces gratuites</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
         <link rel="stylesheet" href="css/bootstrap.css">
@@ -57,8 +57,14 @@
     <main>
       <div>
         <p>Trouvez la bonne affaire parmi <span>27 242 359 </span>petites annonces sur leboncoin.</p>
-        <button></button>
-        <button></button>
+
+        <button class="btn btn-primary" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Déposer une annonce
+        </button>
+        <button class="btn btn-default" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Rechercher autour de moi
+        </button>
+
       </div>
 
 
@@ -73,16 +79,38 @@
       <!-- fin carte de france  -->
 
       <div class="dropup">
-        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <button class="btn btn-lg btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Choisissez une région
           <span class="caret"></span>
         </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Another action</a></li>
-          <li><a href="#">Something else here</a></li>
-          <li role="separator" class="divider"></li>
-          <li><a href="#">Separated link</a></li>
+          <li><a href="">Alsace</a></li>
+          <li><a href="">Aquitaine</a></li>
+          <li><a href="">Auvergne</a></li>
+          <li><a href="">Basse-Normandie</a></li>
+          <li><a href="">Bourgogne</a></li>
+          <li><a href="">Bretagne</a></li>
+          <li><a href="">Centre</a></li>
+          <li><a href="">Champagne-Ardenne</a></li>
+          <li><a href="">Corse</a></li>
+          <li><a href="">France-Comté</a></li>
+          <li><a href="">Haute-Normandie</a></li>
+          <li><a href="">Ile-de-France</a></li>
+          <li><a href="">Languedoc-Roussillon</a></li>
+          <li><a href="">Limousin</a></li>
+          <li><a href="">Lorraine</a></li>
+          <li><a href="">Midi-Pyrénées</a></li>
+          <li><a href="">Nord-Pas-de-Calais</a></li>
+          <li><a href="">Pays de la Loire</a></li>
+          <li><a href="">Picardie</a></li>
+          <li><a href="">Poitou-Charentes</a></li>
+          <li><a href="">Provence-Alpes-Côte d'Azur</a></li>
+          <li><a href="">Rhône-Alpes</a></li>
+          <li><a href=""></a></li>
+          <li><a href="">Guadeloupe</a></li>
+          <li><a href="">Martinique</a></li>
+          <li><a href="">Guyane</a></li>
+          <li><a href="">Réunion</a></li>
         </ul>
       </div>
 
@@ -252,10 +280,10 @@
         <span>
           Retrouvez-nous sur :
           <a href="">
-            <i>f</i>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
           </a>
           <a href="">
-            <i>t</i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
           </a>
         </span>
       </p>

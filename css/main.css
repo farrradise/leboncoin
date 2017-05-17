@@ -35,6 +35,10 @@ header > nav > div:last-child {
   background-color: white;
 }
 
+.btn-primary {
+  background-color: rgb(73,143,232);
+
+}
 
 @media (min-width:970px) {
 
