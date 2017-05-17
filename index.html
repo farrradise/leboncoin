@@ -16,15 +16,17 @@
     </head>
     <body>
 
+
+    <!-- ecriture du header -->
     <header>
       <nav class="navbar navbar-toggleable-md navbar-light">
         <div class="row">
-          <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="">MENU</span>
           </button>
           <a href="#" class="">
-            <h1 class="">
-              <img class="" src="img/logo.svg" alt="logo société">
+            <h1>
+              <img src="img/logo.svg" alt="logo société">
             </h1>
           </a>
         </div>
@@ -51,17 +53,214 @@
       </nav>
     </header>
 
-
+    <!-- ecriture de la partie principale -->
     <main>
+      <div>
+        <p>Trouvez la bonne affaire parmi <span>27 242 359 </span>petites annonces sur leboncoin.</p>
+        <button></button>
+        <button></button>
+      </div>
 
 
+      <!-- carte de france  -->
+      <div>
+        <map name="Map" id="Map">
+          <area class="orange" onmouseover="document.images['immap'].src='map-npdc.png';" onmouseout="document.images['immap'].src='map.png';" alt="npdc"  href="www.google.fr" shape="poly" coords="197,37,207,36,212,42,223,40,225,42,224,44,230,46,235,49,245,50,248,51,255,48,265,48,267,52,280,52,275,44,275,40,275,36,269,36,262,38,262,37,253,27,250,27,248,25,245,18,237,15,231,12,230,12,228,3,226,1,199,8,197,15,200,27,199,32,197,35" />
+          <area class="orange" onmouseover="document.images['immap'].src='map-pic.png';" onmouseout="document.images['immap'].src='map.png';" alt="pic"  href="#" shape="poly" coords="203,88,204,74,201,68,204,60,191,48,196,42,199,43,203,39,210,40,216,43,223,43,228,46,233,48,240,50,249,54,255,51,264,51,274,55,277,55,278,61,272,68,275,78,261,83,262,90,260,92,263,98,255,104,245,95,243,93,234,96,215,87"/>
+        </map>
+        <img name="immap" src="map.png" alt="" usemap="#Map"/>
+      </div>
+      <!-- fin carte de france  -->
 
-      <map name="Map" id="Map">
-        <area class="orange" onmouseover="document.images['immap'].src='map-npdc.png';" onmouseout="document.images['immap'].src='map.png';" alt="npdc"  href="www.google.fr" shape="poly" coords="197,37,207,36,212,42,223,40,225,42,224,44,230,46,235,49,245,50,248,51,255,48,265,48,267,52,280,52,275,44,275,40,275,36,269,36,262,38,262,37,253,27,250,27,248,25,245,18,237,15,231,12,230,12,228,3,226,1,199,8,197,15,200,27,199,32,197,35" />
-        <area class="orange" onmouseover="document.images['immap'].src='map-pic.png';" onmouseout="document.images['immap'].src='map.png';" alt="pic"  href="#" shape="poly" coords="203,88,204,74,201,68,204,60,191,48,196,42,199,43,203,39,210,40,216,43,223,43,228,46,233,48,240,50,249,54,255,51,264,51,274,55,277,55,278,61,272,68,275,78,261,83,262,90,260,92,263,98,255,104,245,95,243,93,234,96,215,87"/>
-      </map>
-      <img name="immap" src="map.png" alt="" usemap="#Map"/>
+      <div class="dropup">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Choisissez une région
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="#">Separated link</a></li>
+        </ul>
+      </div>
+
+      <p> Sur le site
+        <a href="#">leboncoin.fr</a>, passez des
+        <a href="#">annonces gratuites</a> et sans commission. Vous pouvez
+        <a href="#">consulter des petites annonces</a> de
+        <a href="#"> particuliers</a> et de
+        <a href="#"> professionnels </a> partout en France, que vous cherchiez des
+        <a href="#">annonces immobilières</a>, des
+        <a href="#">voitures d'occasion</a>, des
+        <a href="#">offres d'emploi</a>, des
+        <a href="#">meubles</a>, du
+        <a href="#">matériel électronique</a> ou tout autre type de
+        <a href="#">produits d'occasion</a>.
+      </p>
     </main>
+
+
+    <!-- ecriture de l'aside non visible sur les petits écrans  -->
+    <aside class="hidden-md-down">
+      <ul>
+        <li><a href="">Alsace</a></li>
+        <li><a href="">Aquitaine</a></li>
+        <li><a href="">Auvergne</a></li>
+        <li><a href="">Basse-Normandie</a></li>
+        <li><a href="">Bourgogne</a></li>
+        <li><a href="">Bretagne</a></li>
+        <li><a href="">Centre</a></li>
+        <li><a href="">Champagne-Ardenne</a></li>
+        <li><a href="">Corse</a></li>
+        <li><a href="">France-Comté</a></li>
+        <li><a href="">Haute-Normandie</a></li>
+        <li><a href="">Ile-de-France</a></li>
+        <li><a href="">Languedoc-Roussillon</a></li>
+        <li><a href="">Limousin</a></li>
+        <li><a href="">Lorraine</a></li>
+        <li><a href="">Midi-Pyrénées</a></li>
+        <li><a href="">Nord-Pas-de-Calais</a></li>
+        <li><a href="">Pays de la Loire</a></li>
+        <li><a href="">Picardie</a></li>
+        <li><a href="">Poitou-Charentes</a></li>
+        <li><a href="">Provence-Alpes-Côte d'Azur</a></li>
+        <li><a href="">Rhône-Alpes</a></li>
+        <li><a href=""></a></li>
+        <li><a href="">Guadeloupe</a></li>
+        <li><a href="">Martinique</a></li>
+        <li><a href="">Guyane</a></li>
+        <li><a href="">Réunion</a></li>
+      </ul>
+    </aside>
+
+    <footer>
+      <div class="hidden-md-down row">
+        <!-- 1ere colonne -->
+        <div class="col-lg-3">
+          <ul>
+            <li><a href=""></a></li>
+          </ul>
+          <ul>
+            <li><a href=""></a></li>
+          </ul>
+          <ul>
+            <li><a href=""></a></li>
+          </ul>
+        </div>
+        <!-- fin 1ere colonne -->
+
+
+        <!-- 2eme colonne -->
+        <div class="col-lg-3">
+            <ul>
+              <li><a href=""></a></li>
+            </ul>
+            <ul>
+              <li><a href=""></a></li>
+            </ul>
+        </div>
+        <!-- fin 2e colonne -->
+
+
+        <!-- 3eme colonne -->
+        <div class="col-lg-3">
+            <ul>
+              <li><a href=""></a></li>
+            </ul>
+            <ul>
+              <li><a href=""></a></li>
+            </ul>
+        </div>
+        <!-- fin 3e colonne -->
+
+
+        <!-- 4e colonne -->
+        <div class="col-lg-3">
+            <ul>
+              <li><a href=""></a></li>
+            </ul>
+            <ul>
+              <li><a href=""></a></li>
+            </ul>
+            <ul>
+              <li><a href=""></a></li>
+            </ul>
+        </div>
+        <!-- fin 4e colonne -->
+
+      </div>
+
+      <div class="row hidden-md-down">
+        <!-- 1ere colonne -->
+
+        <div class="col-lg-3">
+          <ul>
+            <li><a href=""></a></li>
+          </ul>
+          <ul>
+            <li><a href=""></a></li>
+          </ul>
+        </div>
+        <!-- fin 1ere colonne -->
+
+
+        <!-- 2eme colonne -->
+        <div class="col-lg-3">
+            <ul>
+              <li><a href=""></a></li>
+            </ul>
+        </div>
+        <!-- fin 2e colonne -->
+
+
+        <!-- 3eme colonne -->
+        <div class="col-lg-3">
+            <ul>
+              <li><a href=""></a></li>
+            </ul>
+        </div>
+        <!-- fin 3e colonne -->
+
+        <!-- 4e colonne -->
+        <div class="col-lg-3">
+            <ul>
+              <li><a href=""></a></li>
+            </ul>
+            <ul>
+              <li><a href=""></a></li>
+            </ul>
+        </div>
+        <!-- fin 4e colonne -->
+
+      </div>
+
+      <p class="hidden-md-down">Partenaires :
+        <a href=""> Younited Credit</a> -
+        <a href=""> Kudoz</a> -
+        <a href=""> Agriaffaires</a> -
+        <a href=""> MachineryZone</a> -
+        <a href=""> leDénicheur</a> -
+        <a href=""> Swipsi</a>
+      </p>
+
+      <p>
+        <span>
+          leboncoin 2006 - 2017
+        </span>
+        <span>
+          Retrouvez-nous sur :
+          <a href="">
+            <i>f</i>
+          </a>
+          <a href="">
+            <i>t</i>
+          </a>
+        </span>
+      </p>
+
+    </footer>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/main.js"></script>
