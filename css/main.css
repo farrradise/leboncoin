@@ -1,3 +1,13 @@
+
+
+/*=================mise en page générale==================*/
+
+
+p {
+  /*font-size: 13px;*/
+  font-family: sans-serif;
+}
+
 /*=================mise en page du header==================*/
 
 
@@ -10,6 +20,7 @@ nav {
 
 H1 > img {
   width: 150px;
+  margin: -10px auto auto -20%;
 }
 
 H1 {
@@ -17,12 +28,7 @@ H1 {
 }
 
 header > nav > div > a {
-  position: relative;
-  /*padding: 0;*/
   margin: auto;
-}
-
-header > nav > div:last-child {
 }
 
 .navbar button {
@@ -39,6 +45,67 @@ header > nav > div:last-child {
   background-color: rgb(73,143,232);
 
 }
+
+/*=================mise en page de main==================*/
+
+main {
+  width: 90%;
+  margin: auto;
+}
+
+/*premiere rubrique*/
+main > div:first-child > p {
+  /*font-weight: bold;*/
+  text-align: center;
+  font-size: 0.9em;
+  font-family: apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: bolder;
+  line-height: 1.5;
+  margin: 1em auto;
+  /*letter-spacing: -0.5px;*/
+}
+
+main > div:first-child > p span {
+  color:rgb(245,107,42);
+}
+
+main > div:first-child {
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+}
+
+main > div:first-child button {
+  font-size: 0.8em;
+  width: 290px;
+  font-weight: bold;
+  text-align: center;
+  margin: 8px auto;
+}
+main > div:first-child button:last-of-type {
+  color: #4183d7;
+  border: 1px solid #4183d7; 
+}
+
+main > div:first-child button:last-of-type:hover {
+  background-color :#d9e6f7
+}
+/*==================
+MISE EN PAGE TABLET
+==================*/
+
+
+@media (min-width:) {
+
+  /*=================mise en page du header==================*/
+
+
+
+
+/*==================
+MISE EN PAGE LAPTOP
+==================*/
+
 
 @media (min-width:970px) {
 
