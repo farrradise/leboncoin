@@ -1,5 +1,4 @@
 
-
 /*=================mise en page générale==================*/
 
 
@@ -236,7 +235,7 @@ MISE EN PAGE TABLET
   }
 
   main > div:first-child > div:first-child p {
-    text-align: left!important;
+    text-align: left;
   }
 
 }
@@ -250,10 +249,51 @@ MISE EN PAGE LAPTOP
 
   /*=================mise en page du header==================*/
 
-  header > nav > div > a {
-    position: relative;
-    /*padding: 0;*/
-    margin: auto;
+  header > nav > div > a img {
+    margin-left: 10%;
+  }
+
+  header > nav div:nth-child(2) {
+    margin: 0!important;
+  }
+
+  header > nav div:nth-child(2) > ul {
+    font-variant-caps: small-caps;
+  }
+
+
+  .navbar-light .navbar-nav .nav-link {
+    margin-top: 5px;
+    color: white;
+    text-shadow: 0 0.4px 0.2px;
+  }
+
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+    text-decoration: underline;
+    padding-bottom: 0;
+    /*border: 1px solid red:*/
+  }
+
+  header > nav div:nth-child(2) form button {
+    background-color: inherit;
+    color: white!important;
+    /*border: 1px solid red;*/
+    height: 150%;
+    margin: -15px 0 0 0;
+    border-radius: 0;
+  }
+
+
+  header > nav div:nth-child(2) form button i {
+    margin-right: 10px;
+  }
+
+
+  header > nav div:nth-child(2) form button:hover {
+    background-color: white;
+    color: rgb(245,107,42)!important;
+    transition: 0.4s;
   }
 
 }
