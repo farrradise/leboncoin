@@ -327,4 +327,10 @@ MISE EN PAGE LAPTOP
     color: rgb(245,107,42);
   }
 
+
+    /*=================mise en page du footer==================*/
+
+  footer > div:first-child *  {
+    background-color: rgb(242,242,242);
+  }
 }
