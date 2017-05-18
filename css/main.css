@@ -54,7 +54,9 @@ main {
 }
 
 /*premiere rubrique*/
-main > div:first-child > p {
+
+
+main > div:first-child > div > p {
   /*font-weight: bold;*/
   text-align: center;
   font-size: 0.9em;
@@ -65,11 +67,11 @@ main > div:first-child > p {
   /*letter-spacing: -0.5px;*/
 }
 
-main > div:first-child > p span {
+main > div:first-child > div > p span {
   color:rgb(245,107,42);
 }
 
-main > div:first-child {
+main > div:first-child div {
   display: flex;
   flex-flow: column;
   margin: auto;
@@ -97,10 +99,12 @@ main > div:first-child button:last-of-type:hover {
 
 main .carte {
   text-align: center;
-  /*margin: auto;*/
 }
+
 main .carte map, main .carte > img {
-  max-width: 100%;
+  width: 100%;
+  margin: 0.7em auto;
+  max-width: 410px;
 }
 
 
@@ -109,7 +113,7 @@ main .carte map, main .carte > img {
 /*rubrique bouton mobile régions */
 
 
-main > div:nth-of-type(3) > button {
+main > div:nth-of-type(2) > button {
   width: 100%;
   margin: 1.2em auto;
   color: black;
@@ -118,12 +122,12 @@ main > div:nth-of-type(3) > button {
   text-align: left;
 }
 
-main > div:nth-of-type(3) > button:focus {
+main > div:nth-of-type(2) > button:focus {
   box-shadow: none;
   border: 1px solid rgb(245,107,42);
 }
 
-main > div:nth-of-type(3) > ul {
+main > div:nth-of-type(2) > ul {
   margin: 0 0 -25px 0!important;
   width: 100%;
   height: 250px;
@@ -131,7 +135,7 @@ main > div:nth-of-type(3) > ul {
   font-size: 14px;
 }
 
-main > div:nth-of-type(3) > ul li {
+main > div:nth-of-type(2) > ul li {
   font-size: 18px;
   /*line-height :30px;*/
   margin: 0;
@@ -140,13 +144,13 @@ main > div:nth-of-type(3) > ul li {
   overflow: hidden;
 }
 
-main > div:nth-of-type(3) > ul li a {
+main > div:nth-of-type(2) > ul li a {
   color: black;
   padding: 5px 100px 5px 0;
   /*width: 100%!important; pb que je ne comprends pas >>>>>> pourquoi ne prend-il pas cette déclaration ? */
 }
 
-main > div:nth-of-type(3) > ul li:hover, main > div:nth-of-type(3) > ul li:hover a  {
+main > div:nth-of-type(2) > ul li:hover, main > div:nth-of-type(3) > ul li:hover a  {
   text-decoration: none;
   background-color: rgb(245,107,42);
   color: white;
@@ -182,7 +186,7 @@ footer > p:last-child {
 }
 
 footer > p:last-child > span {
-  margin: 0.5em 0 auto 0.5em;
+  margin: 1em 0 auto 0.5em;
 }
 
 footer > p:last-child span a i {
@@ -218,12 +222,24 @@ MISE EN PAGE TABLET
 ==================*/
 
 
-@media (min-width:) {
+@media (min-width:768px) {
 
   /*=================mise en page du header==================*/
 
 
+  /*=================mise en page du main ==================*/
 
+  /*premiere rubrique*/
+
+  main > div:first-child > div:first-child {
+    margin-top: 1em;
+  }
+
+  main > div:first-child > div:first-child p {
+    text-align: left!important;
+  }
+
+}
 
 /*==================
 MISE EN PAGE LAPTOP
