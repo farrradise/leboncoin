@@ -142,7 +142,7 @@ main > div:nth-of-type(3) > ul li {
 
 main > div:nth-of-type(3) > ul li a {
   color: black;
-  padding: 5px 200px 5px 0;
+  padding: 5px 100px 5px 0;
   /*width: 100%!important; pb que je ne comprends pas >>>>>> pourquoi ne prend-il pas cette déclaration ? */
 }
 
@@ -151,6 +151,18 @@ main > div:nth-of-type(3) > ul li:hover, main > div:nth-of-type(3) > ul li:hover
   background-color: rgb(245,107,42);
   color: white;
 }
+
+
+/*rubrique liste avant footer  */
+
+main > p {
+  text-align: center;
+  font-size: 0.8em;
+  /*color: black;*/
+  text-shadow: 0 0.2px 0.2px;
+  line-height: 17px;
+}
+
 
 /*==================
 MISE EN PAGE TABLET
