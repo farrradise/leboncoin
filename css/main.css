@@ -104,6 +104,54 @@ main .carte map, main .carte > img {
 }
 
 
+
+
+/*rubrique bouton mobile régions */
+
+
+main > div:nth-of-type(3) > button {
+  width: 100%;
+  margin: 1.2em auto;
+  color: black;
+  background-color: white;
+  border: 1px solid lightgray;
+  text-align: left;
+}
+
+main > div:nth-of-type(3) > button:focus {
+  box-shadow: none;
+  border: 1px solid rgb(245,107,42);
+}
+
+main > div:nth-of-type(3) > ul {
+  margin: 0 0 -25px 0!important;
+  width: 100%;
+  height: 250px;
+  overflow-y: scroll;
+  font-size: 14px;
+}
+
+main > div:nth-of-type(3) > ul li {
+  font-size: 18px;
+  /*line-height :30px;*/
+  margin: 0;
+  font-weight: bold;
+  width: 100%!important;
+  overflow: hidden;
+}
+
+main > div:nth-of-type(3) > ul li a {
+  color: black;
+  padding: 5px 200px 5px 0;
+  /*width: 100%!important; pb que je ne comprends pas >>>>>> pourquoi ne prend-il pas cette déclaration ? */
+}
+
+main > div:nth-of-type(3) > ul li:hover, main > div:nth-of-type(3) > ul li:hover a  {
+  text-decoration: none;
+  background-color: rgb(245,107,42);
+  color: white;
+}
+
 /*==================
 MISE EN PAGE TABLET
 ==================*/
