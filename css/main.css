@@ -296,4 +296,35 @@ MISE EN PAGE LAPTOP
     transition: 0.4s;
   }
 
+
+  /*=================mise en page du main==================*/
+  main > p {
+    margin: 6em auto 3em auto;
+  }
+  main > div:first-child div {
+  margin: 0;
+  }
+
+  /*=================mise en page du aside==================*/
+
+
+  aside > ul {
+    text-align: right;
+    top: 75px;
+    position: absolute!important;
+    font-size: 0.9em;
+    text-shadow: 0 0.3px 0.2px;
+    right: 38px;
+    list-style-type: none;
+  }
+
+  aside ul li a {
+    color: #369;
+  }
+
+  aside ul li a:hover {
+    text-decoration: none;
+    color: rgb(245,107,42);
+  }
+
 }
