@@ -330,7 +330,66 @@ MISE EN PAGE LAPTOP
 
     /*=================mise en page du footer==================*/
 
-  footer > div:first-child *  {
+  footer > p:first-of-type, footer >p:first-of-type a {
+    /*width: 100%;*/
+    text-align: center;
+    color: white;
+  }
+
+  footer > div:first-child {
+    padding: 1.4em 3em;
+  }
+
+  footer > div:first-child, footer >div:first-child * {
     background-color: rgb(242,242,242);
+    color: #369;
+  }
+
+  footer >div:nth-child(2) * {
+    color: white;
+  }
+
+  footer >div:nth-child(2) {
+    padding: 1.4em 3em;
+  }
+
+  footer .liste-image-row {
+    display: flex;
+  }
+
+  footer .liste-image-row img {
+    width: 100%;
+    max-width: 100px;
+    margin: 5px;
+  }
+
+  footer >div:nth-child(2) h3 {
+    font-size: 15px;
+    font-variant-caps: small-caps;
+    font-weight: bold;
+  }
+
+  footer >div:nth-child(2) li {
+    line-height: 30px;
+  }
+
+  footer > div *, footer > p  {
+    font-size: 13px;
+    list-style: none;
+  }
+
+  footer > div ul {
+    padding: 0 0 16px 0;
+    border-top: 1px solid lightgray;
+
+  }
+
+
+  footer > div ul li select, footer > div ul li select * {
+    width: 100%;
+    margin-top: 1em;
+    color: black!important;
+    font-size: 12px!important;
+    background-color: white;
   }
 }
