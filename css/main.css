@@ -84,12 +84,26 @@ main > div:first-child button {
 }
 main > div:first-child button:last-of-type {
   color: #4183d7;
-  border: 1px solid #4183d7; 
+  border: 1px solid #4183d7;
 }
 
 main > div:first-child button:last-of-type:hover {
   background-color :#d9e6f7
 }
+
+
+
+/*rubrique carte de france*/
+
+main .carte {
+  text-align: center;
+  /*margin: auto;*/
+}
+main .carte map, main .carte > img {
+  max-width: 100%;
+}
+
+
 /*==================
 MISE EN PAGE TABLET
 ==================*/
